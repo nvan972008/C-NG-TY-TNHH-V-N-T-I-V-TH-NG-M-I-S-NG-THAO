@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --color-primary: #008080; /* Teal color from the image */
+  --color-secondary: #006666;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-slate-900 bg-slate-50/50 antialiased;
+  }
+}
